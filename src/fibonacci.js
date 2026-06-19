@@ -12,7 +12,14 @@ function fibs (n) {
 }
 
 function fibsRec (n) {
-
+    if (n <= 0) return [];
+    if (n === 1) return [0];
+    if (n === 2) return [0, 1];
+    else {
+        let result = fibsRec(n - 1);
+        result.push(result.at(-2) + result.at(-1));
+        return result;
+    }
 }
 
 
