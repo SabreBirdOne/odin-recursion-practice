@@ -1,0 +1,10 @@
+It's nice of ODIN to add all those test cases for us.
+
+Fibonacci is easy. 
+
+R.I.P. to the stack with my mergeSort solution. 
+I see a lot of iterative solutions for the merge sub-problem in mergeSort,
+while I also made the merge function itself recursive too.
+
+I know iterative merge uses less memory, I was not in the 
+mood for index rodeo with 2 arrays this afternoon, so no thanks.
